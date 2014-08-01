@@ -1,0 +1,9 @@
+public void cambiarFrecuencia(boolean frecuencia) -> true Fm/ false Am
+publc double sacar(int boton)
+apagar()
+encender()
+guardar(int boton, double estacion)\
+
+**opcional
+subirEstacion(boolean frecuencia)
+bajarEstacion(boolean frecuencia)
