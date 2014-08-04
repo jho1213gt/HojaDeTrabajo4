@@ -6,8 +6,8 @@
 
 package hdt4;
 
-import java.awt.List;
-
+import java.util.ArrayList;
+import java.util.List;
 /**
  *
  * @author GNXN000000
@@ -26,13 +26,13 @@ public class ListST<E> implements InterfaceStack<E> {
 	public void push(E item){
 	// post: the value is added to the stack
 	//          will be popped next if no intervening push
-		//data.add(item);
+		data.add(item);
 	}
 
 	public E pop(){
 	// pre: stack is not empty
 	// post: most recently pushed item is removed and returne
-		//return data.remove(size()-1);
+		return data.remove(size()-1);
 	}
 
 	public E peek(){

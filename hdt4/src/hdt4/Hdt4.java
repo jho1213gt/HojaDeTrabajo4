@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package hdt4;
 
@@ -29,9 +24,8 @@ public class Hdt4 {
             entry = inScanner.nextLine();
             entry.toUpperCase();
         InterfaceStack<String> miStack = sFactory.getStack(entry);
-    
 
-        texto T= new texto();		//leendo el .txt
+        texto T = new texto();		//leendo el .txt
 	T.leer("Formulas.txt");    
     }
         
