@@ -26,7 +26,7 @@ public class Hdt4 {
         InterfaceStack<String> miStack = sFactory.getStack(entry);
 
         texto T = new texto();		//leendo el .txt
-	T.leer("Formulas.txt");    
+	T.leer("C:\\Users\\usuario\\Documents\\GitHub\\HojaDeTrabajo4\\hdt4\\src\\Formulas.txt");    
     }
         
 }

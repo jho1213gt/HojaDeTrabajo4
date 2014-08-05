@@ -15,7 +15,7 @@ public class ArrayListST<E> implements InterfaceStack<E> {
 
 	public ArrayListST(){
 	// post: constructs a new, empty stack
-	data = new ArrayList<E>();
+                data = new ArrayList<E>();
 	}
 
 	public void push(E item){

@@ -49,13 +49,13 @@ public E removeLast()
 // post: removes value from tail of list
 {
    DualNode<E> temp = tail;
-   tail = tail.previous();
+   tail = tail.previousElement ;
    if (tail == null) {
        head = null;
    } else {
-       tail.setNext(null);
+       tail = tail.nextElement ;
    }
    count--;
-   return temp.value();
+   return temp.data;
 }
 }
