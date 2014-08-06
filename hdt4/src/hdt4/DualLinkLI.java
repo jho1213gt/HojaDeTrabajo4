@@ -5,7 +5,7 @@ package hdt4;
  *
  * @author GNXN000000
  */
-public abstract class DualLinkLI<E> extends AbsList<E>{
+public class DualLinkLI<E> extends AbsList<E>{
 
 protected int count;
 protected DualNode<E> head;
@@ -58,4 +58,9 @@ public E removeLast()
    count--;
    return temp.data;
 }
+
+    @Override
+    public int size() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

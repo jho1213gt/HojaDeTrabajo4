@@ -24,7 +24,17 @@ public class Hdt4 {
             entry = inScanner.nextLine();
             entry.toUpperCase();
         InterfaceStack<String> miStack = sFactory.getStack(entry);
-
+        
+            System.out.println("Ingrese el parametro de listas que desea utilizar: ");
+            System.out.println("Singular Link, ingresar SL");
+            System.out.println("double Link, ingresar DL");
+            System.out.println("Circle Link, ingresar CL");
+            String enter = "";
+            Scanner inTScanner = new Scanner(System.in);
+            enter = inTScanner.nextLine();
+            enter.toUpperCase();
+        InterfaceStack<String> myStack = sFactory.getStack(enter);        
+        
         texto T = new texto();		//leendo el .txt
 	T.leer("C:\\Users\\usuario\\Documents\\GitHub\\HojaDeTrabajo4\\hdt4\\src\\Formulas.txt");    
     }

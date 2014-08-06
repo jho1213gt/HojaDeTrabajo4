@@ -5,7 +5,7 @@ package hdt4;
  *
  * @author GNXN000000
  */
-public abstract class CircleLinkLI<E> extends AbsList<E> {
+public class CircleLinkLI<E> extends AbsList<E> {
   
 protected SingularNode<E> tail; 
 protected int count;
@@ -61,5 +61,10 @@ public E removeLast(){
    count--;
    return temp.value();
 }    
+
+    @Override
+    public int size() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

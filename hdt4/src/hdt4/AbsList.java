@@ -16,10 +16,5 @@ public abstract class AbsList<E> implements InterfaceList<E>{
       return size() == 0;
    }
   
-  public boolean contains(E value){
-  // pre: value is not null
-  // post: returns true iff list contains an object equal to value
-	return -1 != indexOf(value);
-  }    
     
 }

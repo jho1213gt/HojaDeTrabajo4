@@ -6,8 +6,9 @@ import java.util.Iterator;
 /**
  *
  * @author GNXN000000
+ * @param <E>
  */
-public abstract class SingularLinkLI<E> extends AbsList<E> {
+public class SingularLinkLI<E> extends AbsList<E> {
 
 protected int count; // list size
    protected SingularNode<E> head; // ref. to first element

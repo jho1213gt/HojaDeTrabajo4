@@ -15,4 +15,14 @@ public InterfaceStack<E> getStack(String entry){
     else
         return new ListST<E>();
     }
+
+public InterfaceList<E> getList(String enter){
+    if(enter.equals("SL"))
+        return new SingularLinkLI<E>();
+    if(enter.equals("DL"))
+        return new DualLinkLI<E>();
+    else
+        return new CircleLinkLI<E>();
+    }
+
 }
