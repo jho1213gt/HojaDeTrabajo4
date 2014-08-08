@@ -1,4 +1,13 @@
 
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y estructuras de Datos
+ * Seccion 30
+ * Miembros
+ * -Kuk Ho Chung
+ * -Jose Sagastume 
+ */
+
 package hdt4;
 
 import java.util.Scanner;

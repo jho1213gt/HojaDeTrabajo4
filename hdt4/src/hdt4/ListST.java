@@ -1,7 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y estructuras de Datos
+ * Seccion 30
+ * Miembros
+ * -Kuk Ho Chung
+ * -Jose Sagastume 
  */
 
 package hdt4;
